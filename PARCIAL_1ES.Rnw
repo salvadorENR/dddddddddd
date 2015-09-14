@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\begin{document}
+
+
+Problema 1
+\\ A)es una interfaz facil de manejar y la manipulacion de las herramientas es entendible
+\\ B) R version 3.2.2
+\\ c) todas las versiones muchas veces no son compatibles entre ellas mismas
+\\ Problema 2
+<<>>=
+A=matrix(c(1,2,2,1,3,4),nrow=2, ncol=3); A
+B=matrix(c(1,2,3,0,1,2),nrow=3, ncol=2); B
+C=matrix(c(3,4,2,-1,1,1,3,5,3),nrow=3, ncol=3); C
+D=matrix(c(3,2,-2,4),nrow=2, ncol=2); D
+E=matrix(c(2,0,3,-4,1,2,5,4,1),nrow=3, ncol=3); E
+F=matrix(c(-4,2,5,3),nrow=2, ncol=2); F
+O=matrix(c(0,0,0,0,0,0,0,0,0),nrow=3, ncol=3); O
+@
+<<>>=
+E+C
+@
+<<>>=
+P <- (3*C)+(5*O); P
+@
+<<>>=
+P <- (2*C)-(3*E); P
+@
+
+Problema 3
+<<>>=
+A=matrix(c(2,3,4,3,2,1,4,2,6,3,5),nrow=3, ncol=4); A
+B=matrix(c(20,28,30,40,12,15,12,16,8,15,10,20),nrow=4, ncol=3); B
+@
+\end{document}
